@@ -33,9 +33,9 @@ if (localStorage.getItem('darkMode') === 'true') {
 
 // ========== GITHUB PROJECTS ==========
 async function fetchGitHubProjects() {
-    const username = 'JessyTeixeira-QA';
+    const username = 'jessica-teixeira';
     const projectsContainer = document.getElementById('github-projects');
-    const excludedRepos = ['jessyteixeira-qa', 'jessyteixeira-qa.github.io', 'jessicaferreirateixeira-blip', 'qa-automation-hub', 'mit-license'];
+    const excludedRepos = ['jessica-teixeira', 'jessica-teixeira.github.io', 'jessicaferreirateixeira-blip', 'qa-automation-hub', 'mit-license'];
     
     if (!projectsContainer) {
         console.warn('Container "github-projects" not found in HTML.');
